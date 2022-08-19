@@ -6,8 +6,8 @@ import { auth } from './firebase';
 import { useAuthState } from 'react-firebase-hooks/auth';
 
 const style = {
-  appContainer: `max-w-[1024px]  mx-auto pt-10  text-center `,
-  sectionContainer: `flex flex-col   mt-10   relative`,
+  appContainer: `max-w-[1100px] mx-auto   text-center overflow-hidden  `,
+  sectionContainer: `flex flex-col h-[100vh]   relative min-h-fit `,
   body: `bg-slate-300 w-[100%] h-[100%] `,
 };
 

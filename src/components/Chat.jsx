@@ -5,7 +5,7 @@ import { db } from '../firebase';
 import { query, collection, orderBy, onSnapshot } from 'firebase/firestore'; // ovo su sve firebase funkcije
 
 const style = {
-  main: ` flex flex-col p-[10px] bg-slate-200 p-5 my-5 radius rounded-lg `,
+  main: `max-h-[1100px] flex flex-col p-[10px] bg-slate-200 p-5 my-5 radius rounded-lg  overflow-y-scroll`,
 };
 
 
