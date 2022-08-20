@@ -4,7 +4,7 @@ import LogOut from './LogOut'
 import {auth} from '../firebase'
 import {useAuthState} from 'react-firebase-hooks/auth'
 const style = {
-    nav: `bg-blue-800 h-20 rounded-lg flex justify-between items-center p-4 m-0`,
+    nav: `bg-blue-800 bg-opacity-90 h-20 rounded-lg flex justify-between items-center p-4 `,
     heading: `text-white text-3xl`
 }
 
