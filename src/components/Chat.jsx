@@ -5,7 +5,7 @@ import { db } from '../firebase';
 import { query, collection, orderBy, onSnapshot } from 'firebase/firestore'; // ovo su sve firebase funkcije
 
 const style = {
-  main: `max-h-[1100px] flex flex-col p-[10px] bg-opacity-50 bg-slate-200 p-5 my-5 radius rounded-lg overflow-y-scroll  `,
+  main: `max-h-[1100px] flex flex-col p-[10px] bg-opacity-50 bg-slate-200 p-5 my-5 radius rounded-lg overflow-y-scroll h-full `,
 };
 
 
@@ -26,9 +26,7 @@ const Chat = () => {
   }, []);
 
   return (
-    
-    <>
-    
+       <>
       <main className={style.main}>
         
         {messages &&
@@ -38,8 +36,7 @@ const Chat = () => {
           
       </main>
       {/* Send Message Compoenent */}
-      <SendMessage />
-     
+      <SendMessage />  
     </>
   );
 };

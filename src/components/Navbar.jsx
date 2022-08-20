@@ -16,7 +16,6 @@ const Navbar = () => {
       <h1 className={style.heading}>Let's Chat blue</h1> 
       {user ? <LogOut /> : <SignIn />} 
      
-
     </div>
   );
 };

@@ -15,7 +15,6 @@ const signOut = () => {
     <button onClick={() => auth.signOut()} className={style.button}>
         Logout
     </button>
-    
   )
 }
 
